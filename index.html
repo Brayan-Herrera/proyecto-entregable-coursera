@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Galería de Fotos Interactiva</title>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js" defer></script>
+</head>
+<body>
+
+   
+    <div id="image-container">Pasa el cursor sobre una imagen para verla aquí.</div>
+
+   
+    <div class="thumbnails">
+        <img class="thumbnail" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" alt="Bacon con Bandana" onmouseover="changeImage(this)" onmouseout="resetImage()">
+        <img class="thumbnail" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" alt="Bacon con mi amigo" onmouseover="changeImage(this)" onmouseout="resetImage()">
+        <img class="thumbnail" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt="Cachorro Joven" onmouseover="changeImage(this)" onmouseout="resetImage()">
+    </div>
+
+</body>
+</html>
